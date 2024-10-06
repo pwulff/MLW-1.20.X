@@ -1,0 +1,79 @@
+{
+  "item.mlw.sapphire": "Saphir",
+  "item.mlw.raw_sapphire": "Saphir Brut",
+
+  "item.mlw.metal_detector": "Détecteur de Métal",
+  "item.mlw.strawberry": "Fraise",
+  "item.mlw.pine_cone": "Pomme de Pin",
+  "item.mlw.sapphire_staff": "Baton de Saphir",
+
+  "item.mlw.sapphire_sword": "Epée en Saphir",
+  "item.mlw.sapphire_pickaxe": "Pioche en Saphir",
+  "item.mlw.sapphire_axe": "Hache en Saphir",
+  "item.mlw.sapphire_shovel": "Pelle en Saphir",
+  "item.mlw.sapphire_hoe": "Houe en Saphir",
+
+  "item.mlw.sapphire_helmet": "Casque en Saphir",
+  "item.mlw.sapphire_chestplate": "Plastron en Saphir",
+  "item.mlw.sapphire_leggings": "Jambières en Saphir",
+  "item.mlw.sapphire_boots": "Bottes en Saphir",
+
+  "item.mlw.strawberry_seeds": "Graine de Fraise",
+
+  "item.mlw.corn": "Maïs",
+  "item.mlw.corn_seeds": "Graine de Maïs",
+
+  "item.mlw.bar_brawl_music_disc": "Disque",
+  "item.mlw.bar_brawl_music_disc.desc": "Bryan Tech - Bar Brawl (CC0)",
+
+  "item.mlw.pine_boat": "Bateau en Pin",
+  "item.mlw.pine_chest_boat": "Bateau de stockage en Pin",
+
+  "item.mlw.dice": "Dé",
+
+  "block.mlw.sapphire_block": "Bloc de Saphir",
+  "block.mlw.raw_sapphire_block": "Bloc de Saphir Brut",
+
+  "block.mlw.sapphire_ore": "Minerai de Saphir",
+  "block.mlw.deepslate_sapphire_ore": "Minerai de Saphir des Abîmes",
+  "block.mlw.end_stone_sapphire_ore": "Minerai de Saphir de l'End",
+  "block.mlw.nether_sapphire_ore": "Minerai de Saphir du Nether",
+
+  "block.mlw.sound_block": "Bloc de Son",
+
+  "block.mlw.sapphire_stairs": "Escalier de Saphir",
+  "block.mlw.sapphire_slab": "Dalle de Saphir",
+  "block.mlw.sapphire_button": "Bouton de Saphir",
+  "block.mlw.sapphire_pressure_plate": "Plaque de Pression en Saphir",
+  "block.mlw.sapphire_fence": "Barrière en Saphir",
+  "block.mlw.sapphire_fence_gate": "Portillon en Saphir",
+  "block.mlw.sapphire_wall": "Mur en Saphir",
+  "block.mlw.sapphire_door": "Porte en Saphir",
+  "block.mlw.sapphire_trapdoor": "Trappe en Saphir",
+
+  "block.mlw.catmint": "Herbe à chats",
+
+  "block.mlw.gem_polishing_station": "Table de Polissage de Gemme",
+
+  "block.mlw.pine_log": "Bûche en Pin",
+  "block.mlw.pine_planks": "Planches en Pin",
+  "block.mlw.pine_wood": "Bois de Pin",
+  "block.mlw.stripped_pine_log": "Bûche de Pin écorcée",
+  "block.mlw.stripped_pine_wood": "Bois de Pin écorcé",
+  "block.mlw.pine_leaves": "Feuilles de Pin",
+
+  "block.mlw.pine_sign": "Pancarte en Pin",
+  "block.mlw.pine_hanging_sign": "Pancarte Suspendue en Pin",
+
+  "block.mlw.pine_sapling": "Pousse de Pin",
+
+  "tooltip.mlw.metal_detector.tooltip": "Trouve des objets de valeur sous terre!",
+
+  "entity.minecraft.villager.mlw.soundmaster": "Maître du Son",
+  "entity.mlw.mod_chest_boat": "Bateau de stockage",
+
+  "sounds.mlw.metal_detector_found_ore": "Son du Détecteur de Métaux",
+
+
+  "creativetab.tutorial_tab": "Mac-Lave World"
+}

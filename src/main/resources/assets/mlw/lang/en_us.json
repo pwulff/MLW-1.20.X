@@ -1,0 +1,79 @@
+{
+  "item.mlw.sapphire": "Sapphire",
+  "item.mlw.raw_sapphire": "Raw Sapphire",
+
+  "item.mlw.metal_detector": "Metal Detector",
+  "item.mlw.strawberry": "Strawberry",
+  "item.mlw.pine_cone": "Pine Cone",
+  "item.mlw.sapphire_staff": "Sapphire Staff",
+
+  "item.mlw.sapphire_sword": "Sapphire Sword",
+  "item.mlw.sapphire_pickaxe": "Sapphire Pickaxe",
+  "item.mlw.sapphire_axe": "Sapphire Axe",
+  "item.mlw.sapphire_shovel": "Sapphire Shovel",
+  "item.mlw.sapphire_hoe": "Sapphire Hoe",
+
+  "item.mlw.sapphire_helmet": "Sapphire Helmet",
+  "item.mlw.sapphire_chestplate": "Sapphire Chestplate",
+  "item.mlw.sapphire_leggings": "Sapphire Leggings",
+  "item.mlw.sapphire_boots": "Sapphire Boots",
+
+  "item.mlw.strawberry_seeds": "Strawberry Seeds",
+
+  "item.mlw.corn": "Corn",
+  "item.mlw.corn_seeds": "Corn Seeds",
+
+  "item.mlw.bar_brawl_music_disc": "Bar Brawl Music Disc",
+  "item.mlw.bar_brawl_music_disc.desc": "Bryan Tech - Bar Brawl (CC0)",
+
+  "item.mlw.pine_boat": "Pine Boat",
+  "item.mlw.pine_chest_boat": "Pine Chest Boat",
+
+  "item.mlw.dice": "Dice",
+
+  "block.mlw.sapphire_block": "Block of Sapphire",
+  "block.mlw.raw_sapphire_block": "Block of Raw Sapphire",
+
+  "block.mlw.sapphire_ore": "Sapphire Ore",
+  "block.mlw.deepslate_sapphire_ore": "Deepslate Sapphire Ore",
+  "block.mlw.end_stone_sapphire_ore": "Endstone Sapphire Ore",
+  "block.mlw.nether_sapphire_ore": "Nether Sapphire Ore",
+
+  "block.mlw.sound_block": "Sound Block",
+
+  "block.mlw.sapphire_stairs": "Sapphire Stairs",
+  "block.mlw.sapphire_slab": "Sapphire Slab",
+  "block.mlw.sapphire_button": "Sapphire Button",
+  "block.mlw.sapphire_pressure_plate": "Sapphire Pressure Plate",
+  "block.mlw.sapphire_fence": "Sapphire Fence",
+  "block.mlw.sapphire_fence_gate": "Sapphire Fence Gate",
+  "block.mlw.sapphire_wall": "Sapphire Wall",
+  "block.mlw.sapphire_door": "Sapphire Door",
+  "block.mlw.sapphire_trapdoor": "Sapphire Trapdoor",
+  
+  "block.mlw.catmint": "Catmint",
+
+  "block.mlw.gem_polishing_station": "Gem Polishing Station",
+
+  "block.mlw.pine_log": "Pine Log",
+  "block.mlw.pine_planks": "Pine Planks",
+  "block.mlw.pine_wood": "Pine Wood",
+  "block.mlw.stripped_pine_log": "Stripped Pine Log",
+  "block.mlw.stripped_pine_wood": "Stripped Pine Wood",
+  "block.mlw.pine_leaves": "Pine Leaves",
+
+  "block.mlw.pine_sign": "Pine Sign",
+  "block.mlw.pine_hanging_sign": "Pine Hanging Sign",
+
+  "block.mlw.pine_sapling": "Pine Sapling",
+
+  "tooltip.mlw.metal_detector.tooltip": "Finds valuables underground!",
+
+  "entity.minecraft.villager.mlw.soundmaster": "Sound Master",
+  "entity.mlw.mod_chest_boat": "Boat with Chest",
+
+  "sounds.mlw.metal_detector_found_ore": "Metal Detector Jingle",
+
+
+  "creativetab.tutorial_tab": "Mac-Lave World"
+}
