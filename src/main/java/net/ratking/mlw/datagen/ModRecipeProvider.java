@@ -1,5 +1,6 @@
 package net.ratking.mlw.datagen;
 
+import net.minecraft.world.item.Items;
 import net.ratking.mlw.MacLaveWorld;
 import net.ratking.mlw.block.ModBlocks;
 import net.ratking.mlw.item.ModItems;
@@ -39,6 +40,36 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.SAPPHIRE.get(), 9)
                 .requires(ModBlocks.SAPPHIRE_BLOCK.get())
                 .unlockedBy(getHasName(ModBlocks.SAPPHIRE_BLOCK.get()), has(ModBlocks.SAPPHIRE_BLOCK.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.PINE_WOOD.get())
+                .pattern("SS ")
+                .pattern("SS ")
+                .pattern("   ")
+                .define('S', ModBlocks.PINE_LOG.get())
+                .unlockedBy(getHasName(ModBlocks.PINE_LOG.get()), has(ModBlocks.PINE_LOG.get()))
+                .save(pWriter);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.BUILDING_BLOCKS, ModBlocks.PINE_PLANKS.get(), 4)
+                .requires(ModBlocks.PINE_WOOD.get())
+                .unlockedBy(getHasName(ModBlocks.PINE_WOOD.get()), has(ModBlocks.PINE_WOOD.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, ModItems.SAPPHIRE_PICKAXE.get())
+                .pattern("BBB")
+                .pattern(" S ")
+                .pattern(" S ")
+                .define('S', Items.STICK)
+                .define('B', ModBlocks.SAPPHIRE_BLOCK.get())
+                .unlockedBy(getHasName(ModBlocks.PINE_LOG.get()), has(ModBlocks.PINE_LOG.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, Items.STICK, 4)
+                .pattern("W  ")
+                .pattern("W  ")
+                .pattern("   ")
+                .define('W', ModBlocks.PINE_PLANKS.get())
+                .unlockedBy(getHasName(ModBlocks.PINE_LOG.get()), has(ModBlocks.PINE_LOG.get()))
                 .save(pWriter);
     }
 
