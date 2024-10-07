@@ -29,6 +29,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         oreSmelting(pWriter, SAPPHIRE_SMELTABLES, RecipeCategory.MISC, ModItems.SAPPHIRE.get(), 0.25f, 200, "sapphire");
         oreBlasting(pWriter, SAPPHIRE_SMELTABLES, RecipeCategory.MISC, ModItems.SAPPHIRE.get(), 0.25f, 100, "sapphire");
 
+        // Sapphire block from Sapphire
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.SAPPHIRE_BLOCK.get())
                 .pattern("SSS")
                 .pattern("SSS")
@@ -37,11 +38,13 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(ModItems.SAPPHIRE.get()), has(ModItems.SAPPHIRE.get()))
                 .save(pWriter);
 
+        // Sapphire from sapphire block
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.SAPPHIRE.get(), 9)
                 .requires(ModBlocks.SAPPHIRE_BLOCK.get())
                 .unlockedBy(getHasName(ModBlocks.SAPPHIRE_BLOCK.get()), has(ModBlocks.SAPPHIRE_BLOCK.get()))
                 .save(pWriter);
 
+        // Pine Wood from pine log
         ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.PINE_WOOD.get())
                 .pattern("SS ")
                 .pattern("SS ")
@@ -50,26 +53,69 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(ModBlocks.PINE_LOG.get()), has(ModBlocks.PINE_LOG.get()))
                 .save(pWriter);
 
+        // Pine planks from pine wood
         ShapelessRecipeBuilder.shapeless(RecipeCategory.BUILDING_BLOCKS, ModBlocks.PINE_PLANKS.get(), 4)
                 .requires(ModBlocks.PINE_WOOD.get())
                 .unlockedBy(getHasName(ModBlocks.PINE_WOOD.get()), has(ModBlocks.PINE_WOOD.get()))
                 .save(pWriter);
 
+        // Sapphire pickaxe from stick and sapphire block
         ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, ModItems.SAPPHIRE_PICKAXE.get())
                 .pattern("BBB")
                 .pattern(" S ")
                 .pattern(" S ")
                 .define('S', Items.STICK)
                 .define('B', ModBlocks.SAPPHIRE_BLOCK.get())
-                .unlockedBy(getHasName(ModBlocks.PINE_LOG.get()), has(ModBlocks.PINE_LOG.get()))
+                .unlockedBy(getHasName(ModItems.SAPPHIRE.get()), has(ModItems.SAPPHIRE.get()))
                 .save(pWriter);
 
+        // Stick from Pine wood
         ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, Items.STICK, 4)
                 .pattern("W  ")
                 .pattern("W  ")
                 .pattern("   ")
                 .define('W', ModBlocks.PINE_PLANKS.get())
                 .unlockedBy(getHasName(ModBlocks.PINE_LOG.get()), has(ModBlocks.PINE_LOG.get()))
+                .save(pWriter);
+
+        // Sapphire hoe from stick and sapphire block
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, ModItems.SAPPHIRE_HOE.get())
+                .pattern("BB ")
+                .pattern(" S ")
+                .pattern(" S ")
+                .define('S', Items.STICK)
+                .define('B', ModBlocks.SAPPHIRE_BLOCK.get())
+                .unlockedBy(getHasName(ModItems.SAPPHIRE.get()), has(ModItems.SAPPHIRE.get()))
+                .save(pWriter);
+
+        // Sapphire axe from stick and sapphire block
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, ModItems.SAPPHIRE_AXE.get())
+                .pattern("BB ")
+                .pattern("BS ")
+                .pattern(" S ")
+                .define('S', Items.STICK)
+                .define('B', ModBlocks.SAPPHIRE_BLOCK.get())
+                .unlockedBy(getHasName(ModItems.SAPPHIRE.get()), has(ModItems.SAPPHIRE.get()))
+                .save(pWriter);
+
+        // Sapphire shovel from stick and sapphire block
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, ModItems.SAPPHIRE_SHOVEL.get())
+                .pattern(" B ")
+                .pattern(" S ")
+                .pattern(" S ")
+                .define('S', Items.STICK)
+                .define('B', ModBlocks.SAPPHIRE_BLOCK.get())
+                .unlockedBy(getHasName(ModItems.SAPPHIRE.get()), has(ModItems.SAPPHIRE.get()))
+                .save(pWriter);
+
+        // Sapphire sword from stick and sapphire block
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, ModItems.SAPPHIRE_SWORD.get())
+                .pattern(" B ")
+                .pattern(" B ")
+                .pattern(" S ")
+                .define('S', Items.STICK)
+                .define('B', ModBlocks.SAPPHIRE_BLOCK.get())
+                .unlockedBy(getHasName(ModItems.SAPPHIRE.get()), has(ModItems.SAPPHIRE.get()))
                 .save(pWriter);
     }
 
